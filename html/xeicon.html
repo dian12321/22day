@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* https://xpressengine.github.io/XEIcon/index.html - xeicon site */
+    .btn {
+        margin: 50px;
+    }
+
+    .btn a.bar {
+        width: 120px;
+        height: 30px;
+        background-color: #ddd;
+        margin: 20px;
+        display: block;
+        text-decoration: none;
+        color: #666;
+        line-height: 26px;
+        border-radius: 15px;
+    }
+
+    .btn a.bar i {
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 3px;
+        font-size: 12px;
+        margin: 5px 10px 0 5px;
+        float: left;
+    }
+
+    .btn a.bar span {
+        font-size: 12px;
+    }
+    .btn a:hover.bar {
+        color: #fff;
+        background: linear-gradient(92.23deg,#cc25e8 16.87%, #0af0ff 95.69%);
+        box-shadow: 0 0 7px rgba(0,0,0,0.5);
+    }
+.btn a:hover.bar i,
+.btn a:focus.bar i {
+    color: #000;
+}
+
+</style>
+
+<body>
+    <div class="btn">
+        <a href="#" class="bar"><i class="xi-home-o"></i><span>되돌리기</span></a>
+        <a href="#" class="bar"><i class="xi-long-arrow-right"></i><span>다운받기</span></a>
+        <a href="#" class="bar"><i class="xi-long-arrow-left"></i><span>잠금</span></a>
+        <a href="#" class="bar"><i class="xi-bars"></i><span>잠금</span></a>
+        <a href="#" class="bar"><i class="xi-arrow-right"></i><span>태그</span></a>
+    </div>
+</body>
+
+</html>
